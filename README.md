@@ -5,48 +5,46 @@ Using Keras, a convolutional neural network (CNN) was used to complete the photo
 ## Model & Training
 The following choices were made:
 
-#### • Convolutional Layers:
-Number of Layers: 3
+#### Convolutional Layers:
+• Number of Layers: 3
 
-Number of Kernels:
-• 1st Convolutional Layer: 32
-• 2nd Convolutional Layer: 64
-• 3rd Convolutional Layer: 128
+• Number of Kernels: 1st Convolutional Layer: 32, 2nd Convolutional Layer: 64, 3rd Convolutional Layer: 128
 
-Dimension of Kernels: 3 x 3
+• Dimension of Kernels: 3 x 3
 
-Activation Function: ReLU
+• Activation Function: ReLU
 
-Padding: Same
+• Padding: Same
 
-#### • Max-Pooling Layers:
-  o Number of Layers: 3
-  o Dimension of Kernels: 2 x 2
+#### Max-Pooling Layers:
+• Number of Layers: 3
+
+• Dimension of Kernels: 2 x 2
 
 #### • Dense Layers:
-  o Number of Layers: 1 hidden layer & 1 output layer
-  o Number of Nodes:
-    ▪ Hidden Layer: 128
-    ▪ Output Layer: 10
-  o Activation Function:
-    ▪ Hidden Layer: ReLU
-    ▪ Output Layer: Softmax
+• Number of Layers: 1 hidden layer & 1 output layer
 
-#### • Dropout: increasing ratios (0.2, 0.3, 0.4, 0.5)
+• Number of Nodes: Hidden Layer: 128, Output Layer: 10
 
-#### • Batch Normalization
+• Activation Function: Hidden Layer: ReLU, Output Layer: Softmax
 
-#### • Gradient Descent:
-  o Method: Adam 
-  o Learning Rate: 0.001 (default)
+#### Dropout: increasing ratios (0.2, 0.3, 0.4, 0.5)
 
-#### • Loss Function: Sparse Categorical Cross Entropy
+#### Batch Normalization
 
-#### • Metric: Accuracy
+#### Gradient Descent:
+• Method: Adam 
 
-#### • Number of Epochs: 400
+• Learning Rate: 0.001 (default)
 
-#### • Batch Size: 128
+#### Loss Function: Sparse Categorical Cross Entropy
+
+#### Metric: Accuracy
+
+#### Number of Epochs: 400
+
+#### Batch Size: 128
+
 
 The final model summary is as shown below:
 
