@@ -6,8 +6,8 @@ Using Keras, a convolutional neural network (CNN) was used to complete the photo
 The following choices were made:
 
 #### • Convolutional Layers:
-  o Number of Layers: 3
-  o Number of Kernels:
+Number of Layers: 3
+Number of Kernels:
     ▪ 1st Convolutional Layer: 32
     ▪ 2nd Convolutional Layer: 64
     ▪ 3rd Convolutional Layer: 128
