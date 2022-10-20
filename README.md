@@ -5,7 +5,7 @@ Using Keras, a convolutional neural network (CNN) was used to complete the photo
 ## Model & Training
 The following choices were made:
 
-• Convolutional Layers:
+#### • Convolutional Layers:
   o Number of Layers: 3
   o Number of Kernels:
     ▪ 1st Convolutional Layer: 32
@@ -15,11 +15,11 @@ The following choices were made:
   o Activation Function: ReLU
   o Padding: Same
 
-• Max-Pooling Layers:
+#### • Max-Pooling Layers:
   o Number of Layers: 3
   o Dimension of Kernels: 2 x 2
 
-• Dense Layers:
+#### • Dense Layers:
   o Number of Layers: 1 hidden layer & 1 output layer
   o Number of Nodes:
     ▪ Hidden Layer: 128
@@ -28,21 +28,21 @@ The following choices were made:
     ▪ Hidden Layer: ReLU
     ▪ Output Layer: Softmax
 
-• Dropout: increasing ratios (0.2, 0.3, 0.4, 0.5)
+#### • Dropout: increasing ratios (0.2, 0.3, 0.4, 0.5)
 
-• Batch Normalization
+#### • Batch Normalization
 
-• Gradient Descent:
+#### • Gradient Descent:
   o Method: Adam 
   o Learning Rate: 0.001 (default)
 
-• Loss Function: Sparse Categorical Cross Entropy
+#### • Loss Function: Sparse Categorical Cross Entropy
 
-• Metric: Accuracy
+#### • Metric: Accuracy
 
-• Number of Epochs: 400
+#### • Number of Epochs: 400
 
-• Batch Size: 128
+#### • Batch Size: 128
 
 The final model summary is as shown below:
 
@@ -53,6 +53,6 @@ The final model summary is as shown below:
 
 ![image](https://user-images.githubusercontent.com/25527107/196992263-f29bb364-a76a-4dae-9ab4-04464b79126e.png)
 
-#### Training and Testing Losses:
+### Training and Testing Losses:
 
 ![image](https://user-images.githubusercontent.com/25527107/196992325-63b62f72-1622-4819-80ce-64028f08e9da.png)
