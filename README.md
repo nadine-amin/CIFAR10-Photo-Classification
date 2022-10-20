@@ -49,10 +49,10 @@ The final model summary is as shown below:
 ![image](https://user-images.githubusercontent.com/25527107/196992099-2f4e9d8c-9f97-4c77-af88-7ecd0969a2fc.png)
 
 ## Results
-Training and Testing Accuracies:
+#Training and Testing Accuracies:
 
 ![image](https://user-images.githubusercontent.com/25527107/196992263-f29bb364-a76a-4dae-9ab4-04464b79126e.png)
 
-Training and Testing Losses:
+#Training and Testing Losses:
 
 ![image](https://user-images.githubusercontent.com/25527107/196992325-63b62f72-1622-4819-80ce-64028f08e9da.png)
