@@ -7,13 +7,17 @@ The following choices were made:
 
 #### • Convolutional Layers:
 Number of Layers: 3
+
 Number of Kernels:
-    ▪ 1st Convolutional Layer: 32
-    ▪ 2nd Convolutional Layer: 64
-    ▪ 3rd Convolutional Layer: 128
-  o Dimension of Kernels: 3 x 3
-  o Activation Function: ReLU
-  o Padding: Same
+• 1st Convolutional Layer: 32
+• 2nd Convolutional Layer: 64
+• 3rd Convolutional Layer: 128
+
+Dimension of Kernels: 3 x 3
+
+Activation Function: ReLU
+
+Padding: Same
 
 #### • Max-Pooling Layers:
   o Number of Layers: 3
